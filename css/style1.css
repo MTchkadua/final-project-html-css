@@ -1,6 +1,7 @@
 .conteiner {
     max-width: 1920px;
     width: 100%;
+    background-color: beige;
 }
 .headerdiv {
     flex-wrap: wrap;
@@ -127,4 +128,123 @@ h1 {
     color: white;
     border-radius: 10px;
     border: none;
+}
+.section3 {
+    border: 1px solid red;
+    display: flex;
+    width: 68%;
+    margin: 0 auto;
+    height: 728px;
+    justify-content: space-between;
+}
+.sec1 {
+    background-color: white;
+    width: 67%;
+    height: 585px;
+    border: 1px solid black;
+}
+
+.eader {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin: 37px auto;
+    width: 90%;
+    height: 33px;
+
+
+}
+.eader1 { 
+    width: 290px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2 {
+    font-size: 25px;
+    font-family: 'Acumin Pro-N';
+}
+.eader2 {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3 {
+    font-family: 'Acumin Pro-N';
+    font-size: 12px;
+    color: grey;
+
+}
+.dot2 {width: 10px;
+    height: 10px;
+}
+.arrow {
+    width: 8.25px;
+    height: 5px;
+}
+.sec2 {
+    display: flex;
+    width: 406px;
+    height: 585px;
+    border: 1px solid blue;
+    flex-direction: column;
+    row-gap: 47px;
+}
+.secbody1 {
+    width: 90%;
+    margin:44px auto;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+}
+.smalldiv {
+    width:100%;
+    height: 117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phototext {
+    
+}
+.P7 {
+    font-family: 'Acumin Pro-N';
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+}
+h4 {padding-top: 7px;
+    font-family: 'Acumin Pro-N';
+    font-size: 20px;
+}
+.p8 {
+    padding-top: 15px;
+    font-family: 'Acumin Pro-N';
+    font-size: 15px;
+}
+
+
+
+
+.secbox {
+    background-image: url(../images/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 268.8px;
+    border: 3px solid greenyellow;
+}
+.secbox1 {
+    background-color: rgba(223, 223, 223, 0.4);
+    width: 100%;
+    height: 100%;
+}
+.secbox2 {
+    width: 100%;
+    height: 268.8px;
+    border: 3px solid yellow;
 }
