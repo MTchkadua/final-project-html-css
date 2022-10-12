@@ -1,13 +1,12 @@
 .conteiner {
     max-width: 1920px;
     width: 100%;
-    background-color: aqua;
 }
 .headerdiv {
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    background-color:blueviolet;
     width: 68%;
     height: 103px;
     margin: 0 auto;
@@ -16,16 +15,31 @@
 
 .h1 {width: 300px;
     display: flex;
-    justify-content: space-around;
+    height: 60px;
+    justify-content: space-between;
     align-items: center;
 }
-
+.h1 div {
+    display: flex;
+}
+.dot {
+    padding-top: 5px;
+    width: 10px;
+    height: 15px;
+}
 .p1 {
+    padding-left: 5px;
     font-family: 'Acumin Pro-N';
     font-size: 29px;
 }
 span {
     font-family: 'Acumin Pro-B';
+}
+.p3:hover {
+    font-family: 'Acumin Pro-N';
+    color: red;
+    font-size: 20px;
+    transition: all 0.5s;
 }
 .h2 {
     display: flex;
@@ -35,4 +49,46 @@ span {
     height: 21px;
     font-family: 'Acumin Pro-N';
     font-size: 16px;
+}
+.body1 {
+    width: 68%;
+    height: 269.06px;
+    margin: 30px auto;
+    background-image: url(/images/image1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.body11 {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(223, 223, 223, 0.5) 
+}
+.headerbox {
+    height: 26px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.butbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 263px;
+    height: 26px;
+}
+.but1 {width: 124PX;
+    height: 26PX;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(187, 236, 236);
+    color: rgb(21, 79, 79);
+}
+.p4 {
+    font-size: 15px;
+    color: rgb(92, 91, 91);
+}
+.p5 {
+    color: rgb(211, 211, 211);
+    font-size: 12px;
 }
