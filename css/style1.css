@@ -1,8 +1,13 @@
 .conteiner {
     max-width: 1920px;
     width: 100%;
-    background-color: beige;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
+
 .headerdiv {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -57,7 +62,7 @@ span {
 
 .body1 {
     width: 68%;
-    height: 269.06px;
+    /* height: 269.06px; */
     margin: 30px auto;
     background-image: url(/images/image1.png);
     background-repeat: no-repeat;
@@ -143,7 +148,7 @@ h1 {
     display: flex;
     width: 68%;
     margin: 0 auto;
-    height: 728px;
+    /* height: 728px; */
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -311,6 +316,7 @@ h4 {padding-top: 7px;
 }
 
 
+
 .box2header {
     display: flex;
     width: 90%;
@@ -351,4 +357,99 @@ input {
     font-family: 'Acumin Pro-N';
     border: none;
     border-radius: 10px;
+}
+ .footerconteiner {
+    max-width: 1920;
+    width: 100%;
+    background-color: white;
+    height: 250px;
+    margin: 50px 0 auto;
+ }
+
+
+.section4 {
+    width: 68%;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footersec1 {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.footheader {
+    display: flex;
+}
+.p13 {
+    padding-left: 5px;
+    font-family: 'Acumin Pro-N';
+    font-size: 22px;
+}
+.p14 {
+    padding-left: 27px;
+    font-family: 'Acumin Pro-N';
+    font-size: 18px;
+    color: gray;
+}
+.p15 {
+    padding-top: 35px;
+    font-family: 'Acumin Pro-N';
+    font-size: 16px;
+}
+.p16 {
+    padding-top: 10px;
+    width: 376px;
+    font-family: 'Acumin Pro-N';
+    font-size: 15px;
+    color: rgb(154, 154, 154);
+}
+.footersec2 {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.footernav {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-family: 'Acumin Pro-N';
+    font-size: 15px;
+}
+.follow {
+    width: 35%;
+    height: 100%;
+    font-family: 'Acumin Pro-N';
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.media {
+    width: 124px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgmedia {
+    width: 25.61px;
+    height: 25.61px;
+}
+.p17 {
+    font-family: 'Acumin Pro-B';
+}
+.p18 {
+    padding-top: 8px;
 }
