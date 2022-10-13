@@ -18,7 +18,9 @@
     margin: 0 auto;
     display: flex;
 }
-
+.mobheader {
+    display: none;
+}
 .h1 {width: 300px;
     display: flex;
     height: 60px;
@@ -62,7 +64,7 @@ span {
 
 .body1 {
     width: 68%;
-    /* height: 269.06px; */
+    height: 269.06px;
     margin: 30px auto;
     background-image: url(/images/image1.png);
     background-repeat: no-repeat;
@@ -358,33 +360,40 @@ input {
     border: none;
     border-radius: 10px;
 }
+
+
+
  .footerconteiner {
-    max-width: 1920;
     width: 100%;
     background-color: white;
-    height: 250px;
-    margin: 50px 0 auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
  }
 
 
+ 
+
 .section4 {
     width: 68%;
-    height: 250px;
     background-color: white;
     display: flex;
-    margin: 0 auto;
+    margin: 50px auto;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 .footersec1 {
+    padding-top: 50px;
     width: 60%;
-    height: 60%;
+    height: 250px;
     display: flex;
     flex-direction: column;
 }
 .footheader {
     display: flex;
+    flex-wrap: wrap;
 }
 .p13 {
     padding-left: 5px;
@@ -410,16 +419,25 @@ input {
     color: rgb(154, 154, 154);
 }
 .footersec2 {
+    padding-top: 50px;
     width: 40%;
-    height: 60%;
+    height: 250px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footernav {
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
 }
 ul {
     display: flex;
@@ -429,7 +447,7 @@ ul {
     font-size: 15px;
 }
 .follow {
-    width: 35%;
+    width: 40%;
     height: 100%;
     font-family: 'Acumin Pro-N';
     font-size: 15px;
@@ -452,4 +470,74 @@ ul {
 }
 .p18 {
     padding-top: 8px;
+}
+
+
+
+@media (max-width:480px) {
+    .h1 {
+        display: none;
+    }
+    .mobheader {
+        display: block;
+    }
+    .h2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .p6 {
+        display: none;
+    }
+    .p4 {
+        display: none;
+    }
+    .butbox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .p5 {
+        color: rgb(0, 78, 92);
+        font-size: 16px;
+    }
+    .p8 {
+        display: none;
+    }
+    .section3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec1 {
+        width: 100%;
+    }
+    .secbody1 {
+        width: 100%;
+        
+    }
+    .smalldiv {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footersec1 {
+        display: none;
+    }
+    .footersec2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sec2 {
+        padding-top: 50px;
+    }
+    .footerconteiner{
+        background-color: rgb(226, 226, 226);
+    }
+    .section4 {
+        width: 85%;
+        border-radius: 10px;
+    }
 }
