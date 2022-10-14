@@ -1,7 +1,6 @@
 .conteiner {
     max-width: 1920px;
     width: 100%;
-    background-color: beige;
 }
 .headerdiv {
     flex-wrap: wrap;
@@ -42,6 +41,9 @@ span {
     font-size: 20px;
     transition: all 0.5s;
 }
+.mobheader {
+    display: none;
+}
 .h2 {
     display: flex;
     justify-content: space-between;
@@ -53,11 +55,142 @@ span {
 }
 
 
+.section1 {
+    width: 68%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.imgsection {
+    width: 60%;
+    height: 447.61px;
+    border-radius: 10px;
+    background-image: url(./imgdiscover/Main\ image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+.textsection {
+    height: 447.61px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1text {
+    width: 90%;
+    margin: 29px auto;
+    display: flex;
+}
+h1 {
+    font-family: 'Acumin Pro-N';
+    font-size: 26px;
+    padding-left: 5px;
+}
+.bodydiv {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+.sectionbody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.p4 {
+    font-family: 'Acumin Pro-N';
+    font-size: 13px;
+    color: rgb(158, 158, 158);
+}
+h2 {
+    padding-top: 10px;
+    font-family: 'Acumin Pro-N';
+    font-size: 20px;
+}
+.p5 {
+    padding-top: 12px;
+    font-family: 'Acumin Pro-N';
+    font-size: 15px;
+}
 
 
+.section2 {
+    width: 68%;
+    margin: 80px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.div1 {
+    padding-top: 50px;
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+}
+.imgdiv1 {
+    width: 405px;
+    height: 266px;
+    background-image: url(./imgdiscover/6ce9aa6947ca5f936d680046078f00be.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.imgdiv2 {
+    width: 405px;
+    height: 266px;
+    background-image: url(./imgdiscover/19963d23a6ffb8510b9c65951dbd543e.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.imgdiv3 {
+    width: 405px;
+    height: 266px;
+    background-image: url(./imgdiscover/d0a50f4e33bb84e04e8b3b519e0a664d.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    
+}
 
+    
 
-
+.butt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 124px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(171, 166, 166, 0.5);
+    font-size: 12px;
+    color: rgb(55, 54, 54);
+    font-family: 'Acumin Pro-B';
+    
+}
+.p6 {
+    font-family: 'Acumin Pro-N';
+    font-size: 15px;
+    width: 80%;
+    margin: 90px auto 0 auto;
+}
+.p7 {
+    font-family: 'Acumin Pro-N';
+    color: gray;
+    font-size: 13px;
+    width: 80%;
+    margin: 11px auto 0 auto;
+}
 
 
 
@@ -172,4 +305,62 @@ ul {
 .dot2 {
     width: 10px;
     height: 10px;
+}
+
+
+@media (max-width:480px) {
+    .h1 {
+        display: none;
+    }
+    .mobheader {
+        display: block;
+    }
+    .h2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .imgsection {
+        display: none;
+    }
+    .textsection {
+        width: 100%;
+    }
+    .section2 {
+        width: 100%;
+    }
+    .div1 {
+        width: 100%;
+    }
+    .imgdiv1 {
+        width: 100%;
+    }
+    .imgdiv2 {
+        width: 100%;
+    }
+    .imgdiv3 {
+        width: 100%;
+        
+    }
+    .butt {
+        display: none;
+    }
+    .footersec1 {
+        display: none;
+    }
+    .footersec2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sec2 {
+        padding-top: 50px;
+    }
+    .footerconteiner{
+        background-color: rgb(226, 226, 226);
+    }
+    .section4 {
+        width: 85%;
+        border-radius: 10px;
+    }
 }
