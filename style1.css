@@ -472,7 +472,25 @@ ul {
     padding-top: 8px;
 }
 
-
+@media (max-width:1024px){
+    .p5 { color: rgb(79, 78, 78);}
+    .p4 {
+        color: rgb(79, 78, 78);
+    }
+    .section3 {
+        align-items: center;
+        justify-content: center;
+    }
+    .sec1 {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .sec2 {
+        padding-top: 50px;
+        
+    }
+}
 
 @media (max-width:480px) {
     .h1 {

@@ -290,6 +290,17 @@ ul {
     height: 10px;
 }
 
+@media (max-width:1024px){
+    .section2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+
 
 @media (max-width:480px) {
     .h1 {

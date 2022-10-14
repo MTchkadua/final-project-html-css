@@ -307,6 +307,26 @@ ul {
     height: 10px;
 }
 
+@media (max-width:1024px) {
+    .section2 {
+        display: flex;
+    }
+
+    .div1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .imgdiv1 {
+        width: 50%;
+    }
+    .p6 {
+        width: 50%;
+    }
+}
+
 
 @media (max-width:480px) {
     .h1 {
